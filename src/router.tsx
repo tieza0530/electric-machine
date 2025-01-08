@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { NotFoundPage } from '../pages/error-page/404'
+import { NotFoundPage } from './pages/error-page/404'
+import { Home } from './pages/home/index'
 
 export const routes: IRoutes = {
     root: {
@@ -15,7 +16,7 @@ export const routes: IRoutes = {
 export const router = createBrowserRouter([
     {
         path: routes.root.path,
-        element: <NotFoundPage />
+        element: <Home />
     },
     {
         path: routes.notfound.path,
