@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { cn } from '../../lib/utils';
 import { Loading } from '../Loading';
-import { Header } from './Header'
+import { Header } from './header'
 export type MainLayoutProps = {
     children: React.ReactNode;
     className?: string;
