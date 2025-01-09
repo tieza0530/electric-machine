@@ -28,7 +28,7 @@ export const NavigationBarRight = () => {
         <FiPhoneCall className="text-2xl mr-1" />
         <HoverCard>
           <HoverCardTrigger>
-            Gọi mua: 1800 6800 <br />
+            Gọi mua: 037 3388 097 <br />
             (Miễn phí)
           </HoverCardTrigger>
           <HoverCardContent className="text-center w-48">
